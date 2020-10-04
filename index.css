@@ -1,0 +1,123 @@
+html {
+  line-height: 1.4;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.4;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 66px;
+  line-height: 66px;
+  border: 2px solid black;
+  color: black;
+}
+
+.header-title {
+  font-weight: bold;
+  padding: 0 25px;
+  float: left;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+  padding: 30px;
+}
+
+ul li a {
+  color: black;
+  font-size: 16px;
+}
+
+.menu {
+  float: left;
+}
+a {
+  padding: 0 10px;
+}
+
+a:hover {
+}
+
+.content {
+  background-image: url(./woman-in-red.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 720px;
+  font-size: 47px;
+  text-align: center;
+}
+
+p {
+  height: 100px;
+  font-size: 20px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 200px;
+  width: 100%;
+  padding-top: 50px;
+  height: 250px;
+}
+
+.footer1 {
+  text-align: center;
+}
+
+footer table {
+  padding: 20px;
+}
+
+footer ul {
+  list-style: none;
+  font-style: oblique;
+}
+
+footer ul li {
+  display: inline;
+  padding: 30px;
+}
+
+footer ul li a {
+  text-decoration: none;
+}
+
+footer tr {
+  margin: 50px;
+  padding: 10px;
+}
+
+footer th,
+td {
+  padding: 5px;
+  text-align: right;
+}
+
+footer small a {
+  text-decoration: none;
+}

@@ -42,6 +42,20 @@ a {
 /* responsive menu */
 
 @media only screen and (max-width: 750px) {
+  .container,
+  .site-pucher {
+    height: 100%;
+  }
+
+  .container {
+    overflow: hidden;
+  }
+
+  .site-pucher {
+    transition-duration: 0.2s;
+    transform: translateX(0px);
+  }
+
   .header-icon {
     position: relative;
     display: block;
@@ -124,6 +138,7 @@ footer {
 
 footer table {
   padding: 20px;
+  width: 100%;
 }
 
 footer ul {

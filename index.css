@@ -74,6 +74,8 @@ a {
     width: 450px;
     background-color: #dfe7ff;
     transform: translateX(450px);
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
   }
 
   .menu a {
